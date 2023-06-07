@@ -1,0 +1,105 @@
+.face{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(247, 192, 201);
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 15%;
+    position: relative;
+}
+.eyes{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20%;
+    position: absolute;
+    width: 300px;
+}
+.leye{
+    height:73px;
+    width: 73px;
+    background-color: white;
+    border-radius: 50%;
+}
+.reye{
+    height:73px;
+    width: 73px;
+    background-color: white;
+    border-radius: 50%;
+}
+.nose{
+    height: 60px;
+    width: 120px;
+    border-radius: 40px;
+    background-color: rgb(226, 23, 23) ;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 60%;
+    position: absolute;
+    margin-left: 29%;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+#left{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    margin: auto;
+    margin-top: 22.5px;
+}
+#right{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    margin: auto;
+    margin-top: 22.5px;
+}
+#n1{
+    height:28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    margin: auto;
+    margin-top: 15px;
+}
+#n2
+{
+    height: 28px;
+    width: 28px;
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 15%;
+    margin-top: 15px;
+}
+.ears{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: -9%;
+    z-index: -8;
+    width:300px;
+}
+#e1{
+    height: 110px;
+    width: 120px;
+    background-color: rgb(247, 192, 201);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border:2px solid black;
+    margin-left: -4px;
+}
+#e2{
+    height: 110px;
+    width: 120px;
+    background-color: rgb(247, 192, 201);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border:2px solid black;
+}
